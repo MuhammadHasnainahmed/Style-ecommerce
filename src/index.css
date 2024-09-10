@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #F8F3ED;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@keyframes gradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-gradient {
+    background: linear-gradient(270deg, #ec4899, #f87171, #f43f5e); /* Replace with your theme colors */
+    background-size: 600% 600%;
+    animation: gradientBackground 5s ease infinite;
+  }
+  
+
+  .zoom-container {
+    overflow: hidden;
+  }
+  
+  .zoom-image {
+    transition: transform 0.5s ease;
+  }
+  
+  .zoom-container:hover .zoom-image {
+    transform: scale(1.1);
+  }
