@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors:{
         lightcoffe:'#F8F3ED',
-        mediumcoffecolor:'#A75B03'
+        mediumcoffecolor:'#A75B03',
+        darkcoffecolor:'#F1ECE6'
       }
     },
   },

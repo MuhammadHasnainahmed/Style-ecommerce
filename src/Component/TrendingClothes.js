@@ -4,7 +4,7 @@ const TrendingClothes = () => {
   return (
     <div className="bg-white container mx-auto my-20 ">
       <div>
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl p-3 bg-lightcoffe w-[70%] sm:w-[60%] md:w-[30%]  font-bold rounded-br-lg">
+        <h1 className="text-2xl sm:text-4xl md:text-2xl lg:text-4xl p-3 bg-lightcoffe w-[70%] md:w-[40%] xl:w-[30%]  font-bold rounded-br-lg">
           TRENDING CLOTHES
         </h1>
       </div>

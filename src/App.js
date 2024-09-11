@@ -6,6 +6,8 @@ import FashionBanner from './Component/FashionBanner';
 import TrendingClothes from './Component/TrendingClothes';
 import NewCollectionBanner from './Component/NewCollectionBanner';
 import AIPoweredClothing from './Component/AIPoweredClothing';
+import Testimonials from './Component/Testimonials';
+import Footer from './Component/Footer';
 
 
 
@@ -20,6 +22,8 @@ const App = () => {
       <TrendingClothes/>
       <NewCollectionBanner/>
       <AIPoweredClothing/>
+      <Testimonials/>
+      <Footer/>
       <Outlet />
     </div>
    

@@ -8,7 +8,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div className="flex justify-center">
-        <div className="flex flex-wrap items-center justify-center gap-8  p-8 ">
+        <div className="flex flex-wrap items-center justify-center gap-8  md:p-8 ">
           {/* New Collection Card */}
           <div className=" p-4 rounded-lg bg-white shadow-lg w-full md:w-auto  ">
             <h2 className="font-bold text-4xl  mb-2 ">NEW COLLECTION!</h2>
